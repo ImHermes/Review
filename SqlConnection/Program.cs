@@ -8,7 +8,7 @@ try
 {
     using (SqlConnection connection = new SqlConnection(connectionStringValue))
     {
-        Console.WriteLine("\nQuery data example:");
+        Console.WriteLine("\nQuery data example:"); 
         Console.WriteLine("=========================================\n");
 
         String sql = "SELECT TOP 5 FROM dbo.ccount";
